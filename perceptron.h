@@ -103,7 +103,7 @@ double sigmoid(double x)
 }
 /* calculates/ predicts the output
  * accepts perceptron and array of values as input
- * returns 1.0 or -1.0 based upon classification
+ * returns 0.0 - 1.0 based upon classification
  */ 
 double predict(perceptron p, double inp[])
 {
